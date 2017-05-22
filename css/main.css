@@ -114,6 +114,12 @@ h1 {
     line-height: 1.4;
 }
 
+.border-div{
+  height: 26px;
+  width: 100%;
+  background: linear-gradient(to left, #030d54 , #85ccff);
+}
+
 /* Main */
 .main {
     padding-top: 80px;
@@ -121,12 +127,52 @@ h1 {
 }
 .program {
     text-align: center;
-    background-color: #afceff;
+    background-color: #508ce8;
     padding: 15px 25px;
     position: relative;
+    border-radius: 30px;
 }
+
+.uk-modal-dialog{
+padding: 0;
+border: 2px solid #4533FF;
+border-radius: 25px;
+}
+
+.uk-modal-dialog p{
+  padding: 35px;
+  text-align: center;
+  margin-top: 0;
+}
+ .uk-modal-close{
+   margin-top: 30px;
+   margin-right: 30px;
+   color: white;
+ }
+
+h2.headline{
+  background: linear-gradient(to left, #030d54 , #85ccff);
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 35px;
+}
+
+
+.spin{
+  transition: 1s;
+  position: relative;
+  z-index: 1;
+}
+
+.spin:hover {
+  transform: rotate(360deg);
+}
+
+
+
 .program p {
-    color: #555;
+    color: #DDD;
 }
 .program a {
     position: absolute;
