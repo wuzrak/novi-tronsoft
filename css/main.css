@@ -186,10 +186,11 @@ h1 {
     border-radius: 5px;
 }
 .paragraf{
-  color: #000 !important;
+  color: #fff !important;
   font-family: 'Montserrat', sans-serif !important;
   text-transform: uppercase;
   font-weight: 600;
+  text-shadow: 2px 2px 2px #000000;
 }
 .program h2{
   padding-top: 10px;
@@ -199,7 +200,7 @@ h1 {
   font-size: 20px;
   font-weight: 800;
   border-bottom: 1px solid  #888;
-  background:#5933b5;
+  background:#100128;
   border-radius: 5px 5px 0 0;
 
 }
@@ -212,7 +213,7 @@ h1 {
   padding-top: 20px;
   width: 100%;
   border-radius:0 0 5px 5px;
-  background: linear-gradient(to bottom, #ae9cdc , #f7f7f7);;
+  background: linear-gradient(to bottom, #100128 , #7199e2);;
 }
 .program button{
   position: relative;
@@ -220,10 +221,10 @@ h1 {
   width: 85px;
   border-radius: 30px;
   margin-bottom: 10px;
-  background-color: #5933b5;
+  background-color: #FFF;
   padding: 6px;
   border: none;
-  color: #FFF;
+  color: #0a0b4e;
   font-weight: 800;
   cursor: pointer;
 }
